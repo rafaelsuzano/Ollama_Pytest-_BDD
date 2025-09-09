@@ -1,0 +1,9 @@
+# requirements for Descomplicando QA (Ollama + pytest + BDD)
+pytest>=7.2
+pytest-bdd>=4.1
+requests>=2.28
+httpx>=0.24
+ollama
+responses>=0.23   # opcional: para mocking em testes
+pytest-xdist      # opcional: execução paralela
+pytest-html       # opcional: relatórios HTML
